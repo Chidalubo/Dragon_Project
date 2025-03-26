@@ -1,0 +1,63 @@
+yes its in one big file...
+
+I have added a video, to show that it does work.
+
+# required libraries (which appear to not be installed on the linux labs).
+- gml
+- glew
+- glut
+
+# compile:
+-> make
+
+# run:
+-> ./final
+
+# compile and run:
+-> make && ./final
+
+# keyboard inputs
+## state
+'ESC' -> close program
+'Z' -> disable/enable camera mouse movement
+'X' -> disable/enable camera keyboard movement
+
+### camera
+'W' -> moves camera Forward
+'S' -> moves camera Backward
+'A' -> moves camera left
+'D' -> moves camera right
+'Q' -> moves camera up
+'E' -> moves camera down
+'O' -> use orthographic projection
+'P' -> use perspective projection
+'R' -> print camera information
+
+## object collection
+'1' -> select object 1 ("dragon")
+'2' -> select object 2 ("grid")
+'3' -> select object 3 ("table")
+
+'N' or 'PAGE UP'  -> scale +
+'M' or 'PAGE DOWN'-> scale -
+
+'<' -> change object index +
+'>' -> change object index -
+
+## object
+'UP ARROW'   -> translate +z
+'DOWN ARROW' -> translate -z
+'UP ARROW'   -> rotate +y 90degrees
+'DOWN ARROW' -> rotate -y 90degrees
+
+'U' or 'HOME' -> rotate +x
+'J'           -> rotate -x
+'H' or 'END'  -> rotate +y
+'L'           -> rotate -y
+'INSERT'      -> rotate +z
+
+'Y' -> scale +
+'I' -> scale -
+'L' -> disable/enable draw
+
+'T' -> print object information
